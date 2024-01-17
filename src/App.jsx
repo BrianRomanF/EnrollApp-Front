@@ -8,7 +8,7 @@ const Home = () => {
     // Function to handle Google login
     const handleLogin = async () => {
         try {
-            const response = await axios.get('https://enroll-backend.onrender.com/auth/google', {
+            const response = await axios.get('https://enroll-backend.onrender.com/api/auth/google', {
                 headers: {
                     'Content-Type': 'application/json',
                 }
